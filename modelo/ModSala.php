@@ -13,5 +13,7 @@ class Modsala{
 	public function __set($a,$v){
 		$this->$a = $v;
 	}
+
+	// teste leo
 }
 ?>
