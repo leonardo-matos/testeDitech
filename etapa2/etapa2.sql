@@ -4,6 +4,7 @@ select d.dept_name,
 from 	employees e
 		inner join dept_emp de on e.emp_no = de.emp_no
         inner join departments d on d.dept_no = de.dept_no
+        
 
 order by total_dias desc
 LIMIT 10;
